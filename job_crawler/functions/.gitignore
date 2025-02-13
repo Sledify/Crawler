@@ -1,0 +1,52 @@
+# 💾 Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.local
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 📝 Jupyter Notebook 관련
+.ipynb_checkpoints/
+
+# 🛠 Firebase 관련 (중요!!)
+firebase-debug.log
+firebase.json
+firestore.rules
+database.rules.json
+storage.rules
+firestore.indexes.json
+
+# 🔑 Firebase 인증 키 (Git에 올리면 안됨!)
+serviceAccountKey.json
+
+# ⚙️ Node.js / Firebase Functions 관련
+node_modules/
+functions/node_modules/
+functions/lib/
+functions/dist/
+functions/.firebase/
+functions/package-lock.json
+
+# 🚀 Google Cloud 관련
+.gcloudignore
+.cloudignore
+
+# 📝 IDE 및 편집기 관련
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.swn
+
+# 🔥 로그 및 임시 파일
+*.log
+*.out
+*.bak
+*.tmp
+nohup.out
